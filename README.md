@@ -5,6 +5,7 @@
 
 <h2>Description</h2>
 This project focuses on building an end-to-end big data pipeline to process 197+ million NYC Yellow Taxi records from 2019–2023. It implements distributed HDFS ingestion, PySpark-based EDA, and advanced machine learning models (regression, classification, clustering) for trip time prediction, built inside a Docker-based Hadoop and Spark ecosystem.
+Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 <h3>🔧 Tech Stack</h3>
 
