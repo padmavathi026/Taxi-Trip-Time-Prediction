@@ -1,0 +1,12 @@
+services:
+  jupyter:
+    image: custom-jupyter
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+    networks:
+      - hadoop_net
+
+networks:
+  hadoop_net:
+    external: true
