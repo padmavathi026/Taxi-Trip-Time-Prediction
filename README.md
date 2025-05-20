@@ -137,7 +137,7 @@ Navigate to http://localhost:8888
 hdfs dfs -mkdir -p /user/raghu/input/
 hdfs dfs -put *.parquet /user/raghu/input/
 
-<b> Run ML Pipeline: <b>
+<b> Run ML Pipeline: </b>
 
 Open Pyspark.ipynb in Jupyter and execute all steps.
 
